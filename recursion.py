@@ -32,7 +32,17 @@ class Node(object):
         """
 
         # TODO: Complete this method
-        # pass
+        print(self.data)
+
+        current = self.next
+
+        if current:
+            current.traverse_recursively()
+
+        else:
+            return   
+
+
 
 
 #####################################################################
