@@ -15,8 +15,9 @@ Discussion
   Explain your answer.
 
 
+  C. Doubly linked list, because you can traverse to both previous node and next
 
-
+  node.
 
 
 
@@ -34,9 +35,10 @@ Discussion
 
   Explain your answer.
 
+  
+  B. Dictionary, because dictionary are key-value pairs and quick at looking up values
 
-
-
+  by keys.
 
 
 
@@ -44,7 +46,12 @@ Discussion
 3. Explain why looking up, adding elements, and removing elements from a 
    dictionary or hash map are all O(1) operations.
 
+  
+  A hash is a stable, one-way conversion of data to a fixed-size result. 
 
+  Hashmap use hash and the length of the array to find index, so looking up, 
+
+  adding and removing becomes quick.
 
 
 
@@ -53,26 +60,26 @@ Discussion
    location in a Python list are O(n) operations.
 
 
-
+   Because each element has to shift their position after removing and adding.
 
 
 
 
 5. What is the correct runtime for:
 
-  - Bubble Sort?
+  - Bubble Sort? O(n^2)
 
-  - Quicksort?
+  - Quicksort? O(nlogn)
 
-  - Merge Sort?
+  - Merge Sort? O(nlogn)
 
-  - Insertion Sort?
+  - Insertion Sort? O(n^2)
 
 
 6. What is the difference between a tree and a graph?
 
 
-
+A tree is a graph while a graph may not be a tree because a graph can have loops.
 
 
 7. Using the Python implementation of Quicksort from the instructions:
@@ -80,23 +87,23 @@ Discussion
   Given the list [8, 4, 1, 6, 5, 2, 7, 3]:
   When this function is initially called, what are the values of:
 
-    - lst -
+    - lst - [8, 4, 1, 6, 5, 2, 7, 3]
 
-    - pivot -
+    - pivot - 5
 
-    - lo -
+    - lo - [4, 1, 2, 3]
 
-    - hi -
+    - hi - [8, 6, 7]
 
 
 
   When the quicksort is first called recursively on the `lo` list, what are the
   values of:
 
-  - lst -
+  - lst - [4, 1, 2, 3]
 
-  - pivot -
+  - pivot - 2
 
-  - lo -
+  - lo - [1]
 
-  - hi -
+  - hi - [4, 3]
